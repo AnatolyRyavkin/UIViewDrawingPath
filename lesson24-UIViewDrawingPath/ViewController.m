@@ -238,60 +238,39 @@
     self.clean=YES;
 }
 
-
-
-
 #pragma mark - setup size and color
 
 - (IBAction)era:(UIButton *)sender {
     self.color=[UIColor whiteColor];
-
 }
-
 - (IBAction)redButton:(UIButton *)sender{
     self.color=sender.backgroundColor;
 }
-
 - (IBAction)orangeButton:(UIButton *)sender {
     self.color=sender.backgroundColor;
-
 }
-
 - (IBAction)yellowButton:(UIButton *)sender {
     self.color=sender.backgroundColor;
-
 }
-
 - (IBAction)greenButton:(UIButton *)sender {
     self.color=sender.backgroundColor;
-
 }
-
 - (IBAction)blueligthButton:(UIButton *)sender {
     self.color=sender.backgroundColor;
-
 }
-
 - (IBAction)blueButton:(UIButton *)sender {
    self.color=sender.backgroundColor;
-
 }
-
 - (IBAction)purpleButton:(UIButton *)sender {
     self.color=sender.backgroundColor;
-
 }
-
 - (IBAction)litlle:(UIButton *)sender {
     self.size=5;
 }
-
 - (IBAction)midle:(UIButton *)sender {
     self.size=10;
 }
-
 - (IBAction)large:(UIButton *)sender {
     self.size=15;
 }
-
 @end
